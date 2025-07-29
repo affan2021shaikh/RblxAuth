@@ -1,10 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
-  background-size: cover;
   font-family: 'Roboto', sans-serif;
   color: white;
+  background: 
+    linear-gradient(135deg, rgba(10,10,30,0.9), rgba(20,20,40,0.9)),
+    url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDAsIDAsIDY1LCAwLjQpIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6cmdiYSgwLCAwLCAxMDAsIDAuNCkiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6dXJsKCNnKTsiLz4KPC9zdmc+") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .glass {
