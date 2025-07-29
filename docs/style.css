@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('https://images.unsplash.com/photo-1612832021084-6f3d57df4d67?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+  background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   color: white;
