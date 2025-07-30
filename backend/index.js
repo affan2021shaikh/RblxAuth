@@ -14,6 +14,11 @@ app.use(express.json());
 app.post('/register-service', async (req, res) => {
   const { uid } = req.body;
   const password = uuidv4();
+  
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
+
 
   try {
     const result = await pool.query(
